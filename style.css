@@ -51,6 +51,10 @@ body{
     border-radius: 30px;
 }
 
+#nft:hover{
+    content: "";
+}
+
 .img{
     padding: 5px;
     display: flex;
@@ -61,6 +65,12 @@ body{
 .title{
     padding-left: 20px;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: var(--cyan);
+    transition: .5s
 }
 
 /* info styles */
